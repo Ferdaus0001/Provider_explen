@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => CountProvider()),
         ChangeNotifierProvider(create: (_) => SliderProvider()),
       ],
-      child: MaterialApp(title: 'Flutter Demo', home: SliderProviderScreen()),
+      child: MaterialApp(title: 'Flutter Demo', home: AddFabreatScreen()),
     );
   }
 }
